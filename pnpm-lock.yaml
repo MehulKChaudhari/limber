@@ -101,7 +101,7 @@ importers:
         version: 2.11.8
       '@xstate/inspect':
         specifier: ^0.8.0
-        version: 0.8.0(ws@8.13.0)(xstate@4.35.4)
+        version: 0.8.0(ws@8.13.0)(xstate@4.38.1)
       browserslist:
         specifier: ^4.21.9
         version: 4.21.9
@@ -140,7 +140,7 @@ importers:
         version: 6.3.0(@ember/test-waiters@3.0.2)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.0.2)(ember-source@5.1.2)
       ember-statechart-component:
         specifier: 6.1.2
-        version: 6.1.2(@glint/template@1.0.2)(xstate@4.35.4)
+        version: 6.1.2(@glint/template@1.0.2)(xstate@4.38.1)
       highlight.js:
         specifier: ^11.8.0
         version: 11.8.0
@@ -199,8 +199,8 @@ importers:
         specifier: ^8.13.0
         version: 8.13.0
       xstate:
-        specifier: 4.35.4
-        version: 4.35.4
+        specifier: 4.38.1
+        version: 4.38.1
     devDependencies:
       '@babel/core':
         specifier: ^7.22.9
@@ -7443,7 +7443,7 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: true
 
-  /@xstate/inspect@0.8.0(ws@8.13.0)(xstate@4.35.4):
+  /@xstate/inspect@0.8.0(ws@8.13.0)(xstate@4.38.1):
     resolution: {integrity: sha512-wSkFeOnp+7dhn+zTThO0M4D2FEqZN9lGIWowJu5JLa2ojjtlzRwK8SkjcHZ4rLX8VnMev7kGjgQLrGs8kxy+hw==}
     peerDependencies:
       '@types/ws': ^8.0.0
@@ -7455,7 +7455,7 @@ packages:
     dependencies:
       fast-safe-stringify: 2.1.1
       ws: 8.13.0
-      xstate: 4.35.4
+      xstate: 4.38.1
     dev: false
 
   /@xtuc/ieee754@1.2.0:
@@ -11986,7 +11986,7 @@ packages:
       - supports-color
       - webpack
 
-  /ember-statechart-component@6.1.2(@glint/template@1.0.2)(xstate@4.35.4):
+  /ember-statechart-component@6.1.2(@glint/template@1.0.2)(xstate@4.38.1):
     resolution: {integrity: sha512-XzDcGINfwDLqJVbRm6T5A6C/mj0gm3eaUcYr9nDh4ZfON9JbY3WReGyfAaUEvahLXBcpH9wX9+Wuk06160zafg==}
     engines: {node: '>=12.2.0 < 13 || >= 14'}
     peerDependencies:
@@ -11999,7 +11999,7 @@ packages:
       '@embroider/addon-shim': 1.8.6
       '@glint/template': 1.0.2
       ember-tracked-storage-polyfill: 1.0.0
-      xstate: 4.35.4
+      xstate: 4.38.1
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -21840,8 +21840,8 @@ packages:
   /xmlchars@2.2.0:
     resolution: {integrity: sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==}
 
-  /xstate@4.35.4:
-    resolution: {integrity: sha512-mqRBYHhljP1xIItI4xnSQNHEv6CKslSM1cOGmvhmxeoDPAZgNbhSUYAL5N6DZIxRfpYY+M+bSm3mUFHD63iuvg==}
+  /xstate@4.38.1:
+    resolution: {integrity: sha512-1gBUcFWBj/rv/pRcP2Bedl5sNRGX2d36CaOx9z7fE9uSiHaOEHIWzLg1B853q2xdUHUA9pEiWKjLZ3can4SJaQ==}
     dev: false
 
   /y18n@4.0.3:
